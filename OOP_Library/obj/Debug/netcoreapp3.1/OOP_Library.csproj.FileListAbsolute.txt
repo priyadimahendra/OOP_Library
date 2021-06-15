@@ -1,0 +1,13 @@
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.exe
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.deps.json
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.runtimeconfig.json
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.runtimeconfig.dev.json
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.dll
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\bin\Debug\netcoreapp3.1\OOP_Library.pdb
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.csproj.AssemblyReference.cache
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.AssemblyInfoInputs.cache
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.AssemblyInfo.cs
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.csproj.CoreCompileInputs.cache
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.dll
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.pdb
+C:\Users\papahjahat\Documents\Project C#\OOP_Library\OOP_Library\obj\Debug\netcoreapp3.1\OOP_Library.genruntimeconfig.cache
