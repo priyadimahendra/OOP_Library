@@ -33,20 +33,10 @@ namespace OOP_Library
                 switch (pilihan)
                 {
                     case 1:
-                        int i = 0;
-                        foreach (Book buku in banyakBuku)
-                        {
-                            i++;
-                            Console.Write(i); buku.ShowBook();
-                        }
-                        Console.ReadKey();
+                        TampilBuku(banyakBuku);
                         goto one;
                     case 2:
-                        Console.WriteLine(" Tambah Buku");
-                        Console.Write("Nama Buku   = "); string tampungNama = Convert.ToString(Console.ReadLine());
-                        Console.Write("Jumlah Buku = "); int tampungJumlah = Convert.ToInt32(Console.ReadLine());
-
-                        banyakBuku.Add(new Book { NameBook = tampungNama, QuantityBook = tampungJumlah });
+                        TambahBuku(banyakBuku);
                         goto one;
                     case 3:
                         delete:
@@ -78,14 +68,10 @@ namespace OOP_Library
                             goto delete;
                         }
                     case 4:
-                        Console.Clear();
-                        Console.WriteLine("Terimakasih :)");
+                        Keluar();
                         break;
                     default:
-                        Console.Clear();
-                        Console.WriteLine("Tidak Ada di Pilihan!!");
-                        Console.ReadKey();
-                        Console.Clear();
+                        Penanda();
                         goto one;
                 }
             }
@@ -109,6 +95,40 @@ namespace OOP_Library
                 }
                 throw;
             }
+        }
+
+        private static void Penanda()
+        {
+            Console.Clear();
+            Console.WriteLine("Tidak Ada di Pilihan!!");
+            Console.ReadKey();
+            Console.Clear();
+        }
+
+        private static void Keluar()
+        {
+            Console.Clear();
+            Console.WriteLine("Terimakasih :)");
+        }
+
+        private static void TambahBuku(List<Book> banyakBuku)
+        {
+            Console.WriteLine(" Tambah Buku");
+            Console.Write("Nama Buku   = "); string tampungNama = Convert.ToString(Console.ReadLine());
+            Console.Write("Jumlah Buku = "); int tampungJumlah = Convert.ToInt32(Console.ReadLine());
+
+            banyakBuku.Add(new Book { NameBook = tampungNama, QuantityBook = tampungJumlah });
+        }
+
+        private static void TampilBuku(List<Book> banyakBuku)
+        {
+            int i = 0;
+            foreach (Book buku in banyakBuku)
+            {
+                i++;
+                Console.Write(i); buku.ShowBook();
+            }
+            Console.ReadKey();
         }
     }
 }
